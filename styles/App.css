@@ -1,0 +1,131 @@
+
+
+/*Global*/
+body{
+  background-color: black;
+}
+h1,h2,h3,p,li,label{
+  color: white;
+}
+
+
+
+
+
+/* Espacidado*/
+.sectionSpace{
+  height: 90vh;
+  width: 100vh;
+    position: relative;
+  
+}
+.separacion-secciones{
+  margin: 2% auto 10%;
+  padding: 5%;
+}
+
+.subtitle-box{
+  padding: 2% ;
+}
+
+
+
+/* Background*/
+
+.bgDark{
+background-color: black;
+}
+.bgImg{
+
+background-image: url("/bg-portada.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  width:100%;
+}
+.bgCeleste{
+  background-color: #99beff
+}
+.bgWhite {
+  background-color: #f4f4f4
+}
+.bgGray {
+  background-color: #333333
+}
+.bgOrangeClaro {
+  background-color: #f16821
+}
+.bgOrangeOscuro {
+  background-color: #ad4618
+}
+.bgOrangeOscuro {
+  background-color: transparent;
+}
+.opacity50{
+  background-color: rgba(0, 0, 0, 50%)
+}
+.bgTexture {
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+
+}
+
+/*Navegador*/
+
+.img-nav{
+  width: 50px;
+}
+.navBar {
+  margin-bottom: 20px;
+  transition: background-color 400ms, box-shadow 400ms;
+  background-color: transparent;
+
+}
+
+.scrolledAnimate {
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  transition: background-color 1000ms, box-shadow 400ms;
+  box-shadow: 0 0 8px #222222;
+}
+
+
+
+
+/* Position*/
+
+.centerDiv {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
+
+
+  /* Img*/
+.imgProps{
+width: 30vh;
+  }
+
+
+  /* Button */
+.btnStyle{
+background-color: #f16821;
+  color: #f4f4f4;
+    border: none;
+
+}
+
+.btnStyle:hover {
+  background-color: #f4f4f4;
+  color: #ad4618;
+
+}
+
+.btnStyle:focus {
+  box-shadow:0 0 0 0.2rem #f16821;
+}
+
+/* footer */
+.paddingTop{
+padding-top: 3%;
+}
