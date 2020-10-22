@@ -13,10 +13,10 @@ return(
 <Col>
 
 <ul>
-  <li><a>Inicio</a></li>
-  <li><a>Quienes Somos</a></li>
-  <li><a>Servicios</a></li>
-  <li><a>Contacto</a> </li>
+  <li><a href="#home">Inicio</a></li>
+  <li><a href="#quienesSomos">Quienes Somos</a></li>
+  <li><a href="#servicio">Servicios</a></li>
+  <li><a href="#contacto">Contacto</a> </li>
 </ul>
 </Col>
 <Col>
@@ -31,7 +31,7 @@ return(
 </Row>
 <Row>
     <Col className="text-center">
-    <a>Top</a>
+    <a href="#home">Top</a>
 <p>Desarrollado Por Simple y Creativo</p>
     </Col>
 </Row>

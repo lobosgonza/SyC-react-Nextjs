@@ -25,7 +25,7 @@ const [state, setState] = useState("bgTransparent");
 return (
 <Navbar className={state} fixed="top" variant="dark">
     <Navbar.Brand href="#home">
-      <img className="img-nav" src="icono-nav.svg"/>
+      <img href="#home" className="img-nav" src="icono-nav.svg"/>
       Simple y Creativo
     </Navbar.Brand>
     
@@ -33,8 +33,9 @@ return (
 
     <Nav className="justify-content-end">
       <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Quienes Somos</Nav.Link>
-      <Nav.Link href="#pricing">Contacto</Nav.Link>
+      <Nav.Link href="#quienesSomos">Quienes Somos</Nav.Link>
+        <Nav.Link href="#servicio">Servicio</Nav.Link>
+      <Nav.Link href="#contacto">Contacto</Nav.Link>
     </Nav>
     </Navbar.Collapse>
   </Navbar>

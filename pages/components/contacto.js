@@ -12,7 +12,7 @@ function Contacto(){
 return(
     <>
     <h1 className="bgOrangeClaro subtitle-box text-center bgTexture">Contacto</h1>
-    <Container className="separacion-secciones">
+    <Container className="separacion-secciones " id="contacto">
   
     <Row>
 <Col className="text-center">

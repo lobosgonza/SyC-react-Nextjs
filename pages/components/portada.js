@@ -11,21 +11,22 @@ function Portada(){
 return(
     <div className=" bgImg ">
     <div className="opacity50">
-<Container className="sectionSpace ">
-<Row >
-    <Col className="centerDiv" > 
-<Media >
-<div className="align-self-center mr-3 text-center">
+<Container className="sectionSpace" id="home">
+<Row className="centerDiv">
+  
+    <Col className="order-sm-1"  sm={12}>
+<div  className="align-self-center mr-2 text-center">
       <h2>¿Quieres hacer una página web para tu negocio?</h2>
           <h1> ¡Nosotros te ayudamos! </h1>
-            <Button className="btnStyle" size="lg">Quienes Somos</Button>
+            <Button className="btnStyle" href="#quienesSomos" size="lg">Quienes Somos</Button>
     </div>
-<Media.Body>
-        <img src="logo_250w.png"  ></img>
-   </Media.Body>
- 
- </Media> 
     </Col>
+
+<Col className="order-sm-0" md={6} >
+        <img className="imgProps" src="logo_250w.png"></img>
+</Col>
+
+
 </Row>
 </Container>
 </div>

@@ -12,12 +12,12 @@ return (
 <>
 
       <h1 className="text-center bgOrangeClaro subtitle-box bgTexture">¡Que tu idea luzca!</h1>
-    <Container className="separacion-secciones">
+    <Container className="separacion-secciones" id="servicio">
   <Row>
    <Col>
  <h3 className="text-center" >Diseño de páginas web</h3>
 
-      <ul className="bgGray">
+      <ul className="bgOrangeOscuro borderRound padding-secciones">
         <li>Creación de plataforma acorde a la identidad de marca.</li>
         <li>Programación de un sitio web personalizado.</li>
         <li> <strong>Sitio web amigable y responsivo </strong>para teléfonos celulares y computadores.</li>
@@ -28,7 +28,7 @@ return (
    
    <Col>
  <h3 className="text-center">Diseño de marcas </h3>
-      <ul className="bgGray">
+      <ul className="bgOrangeOscuro borderRound padding-secciones">
         <li>Creación y proyección de la identidad de la marca.</li>
         <li><strong>Diseño de logotipos</strong> acorde a las necesidades del cliente.</li>
         <li>Diseño de <strong>Slogan</strong></li>
@@ -38,10 +38,10 @@ return (
 </Row>
 
 <Row>
-<Col className="text-center">
-      <h3>Este servicio incluye un dominio .CL vía “Nic Chile”
+<Col className="text-center ">
+      <h3 className="padding-secciones">Este servicio incluye un dominio .CL vía “Nic Chile”
   y un servidor web dedicado para tu sitio.</h3>
-  <Button className="btnStyle" size="lg">Cotiza con Nosotros</Button>
+  <Button className="btnStyle" href="#contacto" size="lg">Cotiza con Nosotros</Button>
 </Col>
   </Row>
 
